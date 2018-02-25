@@ -4,12 +4,12 @@ public class HelloWorld {
 	private String world;
 	
 	public HelloWorld() {
-		world = "Hello";
-		hello = "World";
+		hello = "Hello";
+		world = "World";
 	}
 	
 	public String getHello() {
-		return hello
+		return hello;
 	}
 	
 	public String getWorld() {
