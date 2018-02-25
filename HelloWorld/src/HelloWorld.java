@@ -4,8 +4,8 @@ public class HelloWorld {
 	private String world;
 	
 	public HelloWorld() {
-		hello = "Hello";
-		world = "World";
+		world = "Hello";
+		hello = "World";
 	}
 	
 	public String getHello() {
