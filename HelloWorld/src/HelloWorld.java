@@ -9,7 +9,7 @@ public class HelloWorld {
 	}
 	
 	public String getHello() {
-		return hello;
+		return hello
 	}
 	
 	public String getWorld() {
