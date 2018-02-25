@@ -1,0 +1,20 @@
+
+public class HelloWorld {
+	private String hello;
+	private String world;
+	private String hello_world;
+	
+	public HelloWorld() {
+		hello = "Hello";
+		world = "World";
+	}
+	
+	public String getHello() {
+		return hello;
+	}
+	
+	public String getWorld() {
+		return world;
+	}
+
+}
