@@ -1,19 +1,18 @@
 
 public class HelloWorld {
-	private String hello;
-	private String world;
+	private static String hello = "Hello";
+	private static  String world = "World";
 	
-	public HelloWorld() {
-		hello = "Hello";
-		world = "World";
-	}
-	
-	public String getHello() {
+	public static String getHello() {
 		return hello;
 	}
 	
-	public String getWorld() {
+	public static String getWorld() {
 		return world;
+	}
+	
+	public static String greeting() {
+		return hello + " " + world;
 	}
 
 }

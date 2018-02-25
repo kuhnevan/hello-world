@@ -6,16 +6,9 @@ import org.junit.Test;
 
 public class HelloWorldTest {
 	
-	HelloWorld hw;
-	
-	@Before
-	public void setup() {
-		hw = new HelloWorld();
-	}
-	
 	@Test
-	public void testHello() {
-		assertTrue(hw.getHello().equals("Hello"));
+	public void testGreeting() {
+		assertTrue(HelloWorld.greeting().equals("Hello World"));
 	}
 
 }
