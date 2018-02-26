@@ -18,14 +18,14 @@
     
     <target name="compile">
         <mkdir dir="${main.build.dir}"/>
-        <javac srcdir="${main.src.dir}" destdir="${main.build.dir}" includeruntime="false">
+        <javac srcdir="${main.src.dir}" destdir="${main.build.dir}" includeatruntime="false">
             <classpath refid="classpath.base"/>
         </javac>
     </target>
     
     <target name="build" depends="compile">
         <mkdir dir="${test.build.dir}"/>
-        <javac srcdir="${test.src.dir}" destdir="${test.build.dir}" includeruntime="false">
+        <javac srcdir="${test.src.dir}" destdir="${test.build.dir}" includeatruntime="false">
             <classpath refid="classpath.test"/>
         </javac>
         <echo message="Build done" />
