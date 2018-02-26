@@ -25,7 +25,7 @@
     
     <target name="build" depends="compile">
         <mkdir dir="${test.build.dir}"/>
-        <javac srcdir="${test.src.dir}" destdir="${test.build.dir"} include runtime="false">
+        <javac srcdir="${test.src.dir}" destdir="${test.build.dir}" include runtime="false">
             <classpath refid="classpath.test"/>
         </javac>
         <echo message="Build done" />
