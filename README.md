@@ -1,3 +1,2 @@
 # hello-world
-Practice Repository
-This repository may or may not contain cool stuff in the future ᕕ( ᐛ )ᕗ
+A hello-world application for practice setting up contiguous-integration testing using travis ci
